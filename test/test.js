@@ -3,7 +3,7 @@ require('should')
 var markdownIt = require('markdown-it')
 var md = markdownIt()
 var markdownitMathjax = require('..')
-md.use(markdownitMathjax())
+md.use(markdownitMathjax)
 
 describe('Tex in-line math', function () {
   it('should work properly', function () {

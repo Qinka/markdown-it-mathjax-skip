@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/classeur/markdown-it-mathjax.git"
+    "url": "git+https://github.com/Qinka/markdown-it-mathjax-skip.git"
   },
   "author": "Benoit Schweblin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/classeur/markdown-it-mathjax/issues"
+    "url": "https://github.com/Qinka/markdown-it-mathjax-skip/issues"
   },
-  "homepage": "https://github.com/classeur/markdown-it-mathjax#readme",
+  "homepage": "https://github.com/Qinka/markdown-it-mathjax-skip#readme",
   "devDependencies": {
     "clgulp": "^1.1.0",
     "eslint-config-classeur": "^1.0.1",
