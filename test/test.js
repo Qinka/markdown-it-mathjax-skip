@@ -1,9 +1,6 @@
 /* global describe, it */
 require('should')
-var markdownIt = require('markdown-it')
-var md = markdownIt()
-var markdownitMathjax = require('..')
-md.use(markdownitMathjax)
+var md = require('markdown-it')().use(require('..'));
 
 describe('Tex in-line math', function () {
   it('should work properly', function () {
@@ -48,11 +45,10 @@ describe('LaTeX section', function () {
 })
 
 describe('Custom wrapping', function () {
-  var md = markdownIt()
-  md.use(markdownitMathjax({
+  var md = require('markdown-it')().use(require('..'), {
     beforeMath: '<span>',
     afterMath: '</span>'
-  }))
+  });
 
   it('should work properly', function () {
     md.render('\\begin{section}1 *2* 3\\end{section}').should.eql('<p><span>\\begin{section}1 *2* 3\\end{section}</span></p>\n')

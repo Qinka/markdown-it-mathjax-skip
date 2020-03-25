@@ -110,11 +110,10 @@ const defaults = {
   beforeInlineMath: '\\(',
   afterInlineMath: '\\)',
   beforeDisplayMath: '\\[',
-  afterDisplayMath: '\\]'
+  afterDisplayMath: '\\]',
 };
 
-
-module.exports = function mathjax_skip_plugin(md, options) {
+module.exports = function mathjaxSkipPlugin(md, options) {
   options = extend(options || {}, defaults);
 
   md.inline.ruler.before('escape', 'math', math);

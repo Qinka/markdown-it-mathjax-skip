@@ -4,7 +4,7 @@
   "description": "",
   "main": "markdown-it-mathjax.js",
   "scripts": {
-    "test": "gulp lint test"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
