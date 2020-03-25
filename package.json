@@ -1,8 +1,8 @@
 {
-  "name": "markdown-it-mathjax",
-  "version": "2.0.0",
+  "name": "markdown-it-mathjax-skip",
+  "version": "3.0.0",
   "description": "",
-  "main": "markdown-it-mathjax.js",
+  "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
@@ -10,8 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Qinka/markdown-it-mathjax-skip.git"
   },
-  "author": "Benoit Schweblin",
-  "license": "ISC",
+  "author": [
+    "Johann Li",
+    "Benoit Schweblin"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Qinka/markdown-it-mathjax-skip/issues"
   },
